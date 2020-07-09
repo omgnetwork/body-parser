@@ -7,6 +7,8 @@
 
 Node.js body parsing middleware.
 
+**Note** This fork is a temporary workaround for JSON parsing BigNumbers. The correct solution is in the [Generic Body Parser PR](https://github.com/expressjs/body-parser/pull/282)
+
 Parse incoming request bodies in a middleware before your handlers, available
 under the `req.body` property.
 

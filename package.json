@@ -1,5 +1,5 @@
 {
-  "name": "body-parser",
+  "name": "omg-body-parser",
   "description": "Node.js body parsing middleware",
   "version": "1.19.0",
   "contributors": [
@@ -7,7 +7,7 @@
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
   ],
   "license": "MIT",
-  "repository": "expressjs/body-parser",
+  "repository": "omgnetwork/body-parser",
   "dependencies": {
     "bytes": "3.1.0",
     "content-type": "~1.0.4",
@@ -15,6 +15,7 @@
     "depd": "~1.1.2",
     "http-errors": "1.7.3",
     "iconv-lite": "0.4.24",
+    "omg-json-bigint": "^1.0.0",
     "on-finished": "~2.3.0",
     "qs": "6.9.3",
     "raw-body": "2.4.1",
